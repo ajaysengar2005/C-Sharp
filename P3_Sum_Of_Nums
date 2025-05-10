@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+//Q3.Find sum of two number with user input
+
+namespace P3_Sum_of_2Numbers
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter Number 1: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Number 2: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int sum = a + b;
+            Console.WriteLine($"Sum is : {sum}");
+        }
+    }
+}
